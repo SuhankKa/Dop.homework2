@@ -18,7 +18,7 @@ for i in range (1, 20):
             password.append(k)
            
 if big:
-    print(password)
+    print(*password)
     
 else:
     print("Ошибка! Введи число от 3 до 20!")
